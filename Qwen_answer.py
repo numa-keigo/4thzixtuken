@@ -3,6 +3,7 @@ import os
 # データセットがキャッシュ済みの場合
 os.environ["HF_DATASETS_OFFLINE"] = "1"
 
+#komenn
 import csv
 import ollama
 from datasets import load_dataset
